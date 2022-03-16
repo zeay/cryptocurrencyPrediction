@@ -12,6 +12,9 @@
         #chartContainer {
             width: 100%; height: 100%; margin: 0; padding: 0; 
         }
+        /* .marginLeft {
+            margin-left: 40px;
+        } */
     </style>
 </head>
 <body>
@@ -26,19 +29,19 @@
     </div>
     <br>
     <br>
-    <div class="container mt-5" id="chartContainer">
+    <div class="container mt-5 marginLeft" id="chartContainer">
         <div class="row">
-          <div class="col-sm-8" id="my_dataviz"></div>
+          <div class="col-sm-8 marginLeft" id="my_dataviz"></div>
           <div class="col-sm-4">
             <h3>Prediction</h3>
             <p id="predictPrice">Click on Predict button after choosing coin</p>
           </div>
         </div>
     </div>
-    <div class="container mt-5" id="chartContainer">
+    <div class="container mt-5 marginLeft" id="chartContainer">
         <div class="row">
           <div class="col-sm-8">
-              <input type="number" class="form-control" placeholder="Provide a custom price for choose coin">
+              <input type="number" class="form-control marginLeft" placeholder="Provide a custom price for choose coin">
           </div>
           <div class="col-sm-4">
             <button class="btn btn-info" id="predictPriceButton">Predict Price</button>
