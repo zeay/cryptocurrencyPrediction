@@ -1,0 +1,22 @@
+{
+  "name": "research",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeay/cryptocurrencyPrediction.git"
+  },
+  "author": "Kumar Saurabh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeay/cryptocurrencyPrediction/issues"
+  },
+  "homepage": "https://github.com/zeay/cryptocurrencyPrediction#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
